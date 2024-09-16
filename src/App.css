@@ -1,0 +1,44 @@
+.bg1{
+    background: url('./components/assets/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.carousel-cell {
+    width: 50%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .fast{
+    background: url('./components/assets/fastfood.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .drink{
+    background: url('./components/assets/drink.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .news{
+    background: url('./components/assets/bgcontact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
