@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Kalam&family=Varela+Round&family=Ysabeau+SC&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap');
+
+.font1 {
+  font-family: "Ysabeau SC", sans-serif;
+}
+.font2 {
+  font-family: "Cinzel", serif;
+}
+.font3 {
+  font-family: "Kalam", cursive;
+  font-family: 'Dancing Script', cursive;
+}
+.font4 {
+  font-family: "Varela Round", sans-serif;
+}
+.navbarcolor {
+  color: #27ae60;
+}
+.txt1 {
+  color: #2e8b57;
+}
+.bgcolor1 {
+  background-color: #2e8b57;
+}
+.btn:hover{
+  background-color: #2e8b57;
+  color: white;
+  transition-duration: 0.1s;
+  border: none;
+}
