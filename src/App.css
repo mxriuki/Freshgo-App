@@ -42,11 +42,14 @@
   margin-right: auto
 }
 
+<<<<<<< HEAD
+=======
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem
 }
 
+>>>>>>> main
 .mb-2{
   margin-bottom: 0.5rem
 }
@@ -55,10 +58,13 @@
   margin-top: 0.5rem
 }
 
+<<<<<<< HEAD
+=======
 .mt-3{
   margin-top: 0.75rem
 }
 
+>>>>>>> main
 .mt-4{
   margin-top: 1rem
 }
@@ -67,6 +73,8 @@
   display: flex
 }
 
+<<<<<<< HEAD
+=======
 .hidden{
   display: none
 }
@@ -75,10 +83,13 @@
   height: 13rem
 }
 
+>>>>>>> main
 .h-auto{
   height: auto
 }
 
+<<<<<<< HEAD
+=======
 .h-full{
   height: 100%
 }
@@ -107,6 +118,7 @@
   max-width: 29rem
 }
 
+>>>>>>> main
 .-translate-x-1\/2{
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
@@ -125,26 +137,35 @@
   flex-direction: column
 }
 
+<<<<<<< HEAD
+=======
 .flex-wrap{
   flex-wrap: wrap
 }
 
+>>>>>>> main
 .items-start{
   align-items: flex-start
 }
 
+<<<<<<< HEAD
+=======
 .items-end{
   align-items: flex-end
 }
 
+>>>>>>> main
 .items-center{
   align-items: center
 }
 
+<<<<<<< HEAD
+=======
 .justify-start{
   justify-content: flex-start
 }
 
+>>>>>>> main
 .justify-center{
   justify-content: center
 }
@@ -159,18 +180,23 @@
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))
 }
 
+<<<<<<< HEAD
+=======
 .space-x-3 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))
 }
 
+>>>>>>> main
 .space-x-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)))
 }
 
+<<<<<<< HEAD
+=======
 .space-y-1 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -195,16 +221,20 @@
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse))
 }
 
+>>>>>>> main
 .space-y-8 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse))
 }
 
+<<<<<<< HEAD
+=======
 .overflow-hidden{
   overflow: hidden
 }
 
+>>>>>>> main
 .overflow-x-hidden{
   overflow-x: hidden
 }
@@ -213,10 +243,13 @@
   border-radius: 0.25rem
 }
 
+<<<<<<< HEAD
+=======
 .rounded-2xl{
   border-radius: 1rem
 }
 
+>>>>>>> main
 .rounded-full{
   border-radius: 9999px
 }
@@ -247,6 +280,8 @@
   border-width: 1px
 }
 
+<<<<<<< HEAD
+=======
 .border-gray-300{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity))
@@ -262,16 +297,20 @@
   background-color: rgb(0 0 0 / var(--tw-bg-opacity))
 }
 
+>>>>>>> main
 .bg-gray-200{
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity))
 }
 
+<<<<<<< HEAD
+=======
 .bg-green-500{
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity))
 }
 
+>>>>>>> main
 .bg-green-700{
   --tw-bg-opacity: 1;
   background-color: rgb(21 128 61 / var(--tw-bg-opacity))
@@ -291,14 +330,21 @@
   background-color: rgb(255 255 255 / var(--tw-bg-opacity))
 }
 
+<<<<<<< HEAD
+=======
 .bg-opacity-30{
   --tw-bg-opacity: 0.3
 }
 
+>>>>>>> main
 .p-2{
   padding: 0.5rem
 }
 
+<<<<<<< HEAD
+.p-6{
+  padding: 1.5rem
+=======
 .p-4{
   padding: 1rem
 }
@@ -315,6 +361,7 @@
 .px-14{
   padding-left: 3.5rem;
   padding-right: 3.5rem
+>>>>>>> main
 }
 
 .px-2{
@@ -370,10 +417,13 @@
   text-align: center
 }
 
+<<<<<<< HEAD
+=======
 .text-right{
   text-align: right
 }
 
+>>>>>>> main
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem
@@ -384,11 +434,14 @@
   line-height: 2.25rem
 }
 
+<<<<<<< HEAD
+=======
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem
 }
 
+>>>>>>> main
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem
@@ -417,6 +470,11 @@
   font-weight: 600
 }
 
+<<<<<<< HEAD
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity))
+=======
 .italic{
   font-style: italic
 }
@@ -439,6 +497,7 @@
 .text-red-600{
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity))
+>>>>>>> main
 }
 
 .text-white{
@@ -452,6 +511,8 @@
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
+<<<<<<< HEAD
+=======
 .saturate-150{
   --tw-saturate: saturate(1.5);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
@@ -467,6 +528,7 @@
   transition-duration: 150ms
 }
 
+>>>>>>> main
 .transition-colors{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -477,12 +539,15 @@
   transition-duration: 300ms
 }
 
+<<<<<<< HEAD
+=======
 .hover\:scale-105:hover{
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
+>>>>>>> main
 .hover\:text-blue-300:hover{
   --tw-text-opacity: 1;
   color: rgb(147 197 253 / var(--tw-text-opacity))
@@ -494,10 +559,13 @@
 }
 
 @media (min-width: 768px){
+<<<<<<< HEAD
+=======
   .md\:top-10{
     top: 2.5rem
   }
 
+>>>>>>> main
   .md\:mb-0{
     margin-bottom: 0px
   }
@@ -506,10 +574,13 @@
     margin-top: 0px
   }
 
+<<<<<<< HEAD
+=======
   .md\:block{
     display: block
   }
 
+>>>>>>> main
   .md\:h-screen{
     height: 100vh
   }
@@ -522,6 +593,8 @@
     width: 24rem
   }
 
+<<<<<<< HEAD
+=======
   .md\:w-\[25rem\]{
     width: 25rem
   }
@@ -530,6 +603,7 @@
     max-width: 100%
   }
 
+>>>>>>> main
   .md\:flex-row{
     flex-direction: row
   }
@@ -538,6 +612,8 @@
     padding: 8rem
   }
 
+<<<<<<< HEAD
+=======
   .md\:p-4{
     padding: 1rem
   }
@@ -546,6 +622,7 @@
     padding-left: 2rem
   }
 
+>>>>>>> main
   .md\:text-left{
     text-align: left
   }
@@ -555,15 +632,20 @@
     line-height: 2.5rem
   }
 
+<<<<<<< HEAD
+=======
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1
   }
 
+>>>>>>> main
   .md\:text-6xl{
     font-size: 3.75rem;
     line-height: 1
   }
+<<<<<<< HEAD
+=======
 
   .md\:text-lg{
     font-size: 1.125rem;
@@ -591,6 +673,7 @@
     font-size: 1.25rem;
     line-height: 1.75rem
   }
+>>>>>>> main
 }
 
 @media (min-width: 1280px){
