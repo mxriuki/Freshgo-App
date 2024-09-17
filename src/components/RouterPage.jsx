@@ -5,7 +5,7 @@ import MainContainer from './mainContainer/MainContainer';
 import Navbar from './navbar/Navbar';
 import ProductContainer from './Products/ProductContainer';
 import News from './Blogs/News';
-// import Offer from './offer/Offer';
+import Offer from './offer/Offer';
 import Footer from './footer/Footer';
 
 function Router({handleInfo,info}) {
@@ -17,7 +17,7 @@ function Router({handleInfo,info}) {
       <ProductContainer handleInfo={handleInfo}/>
       <InfoContainer />
       <News />
-      {/* <Offer /> */}
+      <Offer />
       <Footer />
     </div>
   );
