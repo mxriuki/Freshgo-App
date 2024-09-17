@@ -3,7 +3,7 @@ import './App.css';
 import '././components/style.css'
 import { Route, Routes } from 'react-router-dom';
 import RouterPage from '../src/components/RouterPage';
-// import Cart from './components/cart/Cart'
+import Cart from './components/cart/Cart'
 import { useState } from 'react';
 // import Buy from './components/AfterPurchase/Buy';
 import "react-toastify/dist/ReactToastify.css";
@@ -19,7 +19,7 @@ function App() {
       <ToastContainer position="top-center" autoClose={3000} />
       <Routes>
         <Route path='/' element={<RouterPage handleInfo={handleInfo} info={info}/>} />
-        {/* <Route path='cart' element={<Cart info={info} setInfo={setInfo} />} />         */}
+        <Route path='cart' element={<Cart info={info} setInfo={setInfo} />} />        
         {/* <Route path='buy' element={<Buy/>} />       */}
       </Routes>
       
