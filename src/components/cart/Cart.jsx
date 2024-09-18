@@ -101,7 +101,7 @@ function Cart({ info, setInfo }) {
         )}
         <div className="flex font4 flex-col sm:flex-row items-center sm:justify-end sm:space-x-2 text-2xl font-bold">
           <h1 className="">Total price of your cart: </h1>
-          <h2 className=" txt1 sm:mt-0 mt-4">$- {price}</h2>
+          <h2 className=" txt1 sm:mt-0 mt-4">ksh- {price}</h2>
           <button onClick={handleBuy} className="bgcolor1 px-2 py-1 text-white rounded-md">Buy Now</button>
         </div>
       </div>

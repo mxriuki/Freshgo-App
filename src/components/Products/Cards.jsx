@@ -60,14 +60,14 @@ function CardItems({ data,handleClick }) {
   }
   
   return (
-    <div onClick={(e) => e.stopPropagation()} className="flex flex-col i border p-4 m-2 w-64 bg-white hover:scale-105 transition-all">
-      <div className="h-52 ">
-        <img src={data.img} className="w-60 " alt={data.name} />
+    <div onClick={(e) => e.stopPropagation()} className="flex flex-col i border p-4 m-2 w-64 bg-white hover:scale-105 transition-all rounded-lg">
+      <div className="h-52">
+        <img src={data.img} className="w-60 rounded-lg" alt={data.name} />
       </div>
       <div className="flex flex-col items-start text-xl">
         <label className="font-bold txt1 italic">{data.category}</label>
         <label className="font-bold text-gray-800 mt-2">{data.name}</label>
-        <label className="text-[#f6a64d] font-bold">{data.price}</label>
+        <label className="text-[#f6a64d] font-bold">ksh- {data.price}</label>
         <div className="flex w-full justify-between items-center mt-3 text-base">
           <button onClick={handleButton} className="flex border border-gray-300 rounded-2xl items-center space-x-2 px-2 py-1 btn ">
             <FaCartPlus /> <span>Add to Cart </span>
