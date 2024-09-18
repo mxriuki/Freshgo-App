@@ -10,7 +10,7 @@ function Footer() {
           <p className="text-lg font-semibold">FreshGo Grocery</p>
           <p className="text-sm">Your One-Stop Grocery Shop</p>
           <div className="mt-4">
-            <p>&copy; 2023 FreshGo Grocery </p>
+            <p>&copy; 2024 FreshGo Grocery </p>
           </div>
         </div>
       </footer>

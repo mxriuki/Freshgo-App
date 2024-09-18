@@ -7,7 +7,6 @@ function MainContainer() {
     <div className="md:w-1/2">
       <img src={pic} alt="asd" className="w-full md:max-w-full rounded-lg" />
     </div>
-  
     <div className="md:w-1/2 flex flex-col space-y-5 md:pl-8">
       <div className="txt1 font-bold text-lg md:text-xl lg:text-2xl">Our Stories</div>
       <div className="flex flex-col space-y-3">
