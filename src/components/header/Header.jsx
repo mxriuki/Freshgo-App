@@ -17,7 +17,7 @@ function Header() {
         <div className="md:w-96 font4">
           Order today and receive your package within 24 hours by FreshGo
         </div>
-        <button className="bgcolor1 text-white rounded-lg px-4 py-2 font4 w-full">
+        <button className="bgcolor1 text-white rounded-lg px-4 py-2 font4 w-1/4">
           <Link to='/cart'>Purchase Now</Link>
         </button>
       </div>
