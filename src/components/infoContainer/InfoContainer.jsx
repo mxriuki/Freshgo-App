@@ -1,5 +1,6 @@
 import fast from "../assets/fastfood.jpg";
 import drink from "../assets/drink.jpg";
+import { Link } from "react-router-dom";
 
 function InfoContainer() {
 
@@ -11,7 +12,7 @@ function InfoContainer() {
           <div className="flex flex-col justify-start items-end space-y-2 font4">
             <label className="font-bold text-4xl text-right md:text-left">Fast Food <br /> Recipes</label>
             <p className="md:text-xl md:w-[25rem]">Fresh, nourishing and always delicious. Check out our favoriterecipes for a fruity revival.</p>
-            <button className="bg-red-600 text-white px-4 py-2 rounded-md font4">View Recipes</button>
+            <button className="bg-red-600 text-white px-4 py-2 rounded-md font4"><Link to="/recipes">View Recipes</Link></button>
           </div>
         </div>
       </div>
