@@ -9,6 +9,7 @@ import Buy from './components/AfterPurchase/Buy';
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from 'react-toastify';
 import Recipes from './components/recipes/recipes';
+import NotFound from './components/404/404';
 
 function App() {
   const[info,setInfo]=useState([])
@@ -23,6 +24,7 @@ function App() {
         <Route path='cart' element={<Cart info={info} setInfo={setInfo} />} />        
         <Route path='buy' element={<Buy/>} /> 
         <Route path='recipes' element={<Recipes/>} />
+        <Route path='*' element={<NotFound/>} />
       </Routes>
       
     </div>
