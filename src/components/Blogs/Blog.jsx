@@ -42,7 +42,7 @@ const Blog = () => {
             <p className="txt1 font3">{newsItem.date}</p>
             <label>{newsItem.h1}</label>
             <label>{newsItem.info}</label>
-            <button className="bgcolor1 text-white p-2 rounded-lg">{newsItem.btn}</button>
+            {/* <button className="bgcolor1 text-white p-2 rounded-lg">{newsItem.btn}</button> */}
           </div>
         </div>
       ))}

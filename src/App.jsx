@@ -8,6 +8,7 @@ import { useState } from 'react';
 import Buy from './components/AfterPurchase/Buy';
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from 'react-toastify';
+import Recipes from './components/recipes/recipes';
 
 function App() {
   const[info,setInfo]=useState([])
@@ -21,6 +22,7 @@ function App() {
         <Route path='/' element={<RouterPage handleInfo={handleInfo} info={info}/>} />
         <Route path='cart' element={<Cart info={info} setInfo={setInfo} />} />        
         <Route path='buy' element={<Buy/>} /> 
+        <Route path='recipes' element={<Recipes/>} />
       </Routes>
       
     </div>
