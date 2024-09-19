@@ -49,7 +49,7 @@ function Cart({ info, setInfo }) {
     <div className="p-4 ">
       <div className="flex items-center justify-between">
         <h2 className="text-2xl font4 font-bold mb-4">Your Cart</h2>
-        <h2 className="font4">Total: {price}</h2>
+        <h2 className="font4">Total: ksh- {price}</h2>
       </div>
       <div>
         {info.length > 0 ? (
