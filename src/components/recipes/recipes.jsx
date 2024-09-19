@@ -7,8 +7,8 @@ function Recipes() {
 
   async function fetchRecipes() {
     try {
-      const apiKey = "7b5579155cbb4334a349d19e9a73c405";
-      const response = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=${apiKey}`);
+      const apiKey = "cfe40b830c04461c9390f8a7bb068fbe";
+      const response = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=${apiKey}`)
       console.log(21, response.data.recipes[0]);
 
       setRecipe(response.data.recipes[0]);
