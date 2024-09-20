@@ -11,7 +11,7 @@ import { ToastContainer } from 'react-toastify';
 import Recipes from './components/recipes/recipes';
 import NotFound from './components/404/404';
 import Login from './components/Login';
-import Signup from './components/Singup';
+import Signup from './components/Signup';
 import Logout from './components/Logout';
 
 function App() {
