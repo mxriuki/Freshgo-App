@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import GoogleIcon from '@mui/icons-material/Google';
 import { signInWithPopup, GoogleAuthProvider, signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../config/firebase.config';
+import { auth } from '../config/firebase-config';
 import { useState } from 'react';
 
 function Login() {
