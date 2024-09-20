@@ -1,3 +1,4 @@
+// src/Signup.jsx
 import { Link } from 'react-router-dom';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../config/firebase-config';
@@ -27,45 +28,45 @@ function Signup() {
       await createUserWithEmailAndPassword(auth, email, password);
       alert("Account created successfully");
     } catch (error) {
-      // Provide more detailed error messages
       alert(`Account creation failed: ${error.message}`);
     }
   }
 
   return (
-    <div className="h-1/2 w-full md:1/2 p-6 m-auto mt-28 flex flex-col items-center justify-center">
-      <div className="w-full md:w-2/5 rounded-tr-3xl p-4 flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-bold text-center m-3">Sign Up</h1>
-        <form onSubmit={signup} className="flex flex-col gap-8 items-center justify-center w-full md:w-2/3">
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <div className="bg-white shadow-lg rounded-lg p-8 md:p-10 transition-transform transform hover:scale-105 duration-300">
+        <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-600 mb-4 animate-fadeIn">Sign Up</h1>
+        <form onSubmit={signup} className="flex flex-col gap-6">
           <input
             onChange={(e) => setEmail(e.target.value)}
             type="email"
             value={email}
             placeholder="Email"
-            className='px-4 py-2 text-gray-400 border-2 border-blue-100 rounded-lg w-full'
+            className='px-4 py-2 text-gray-700 border-2 border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200'
           />
           <input
             onChange={(e) => setPassword(e.target.value)}
             type="password"
             value={password}
             placeholder="Password"
-            className="px-4 py-2 text-gray-400 border-2 border-blue-100 rounded-lg w-full"
+            className="px-4 py-2 text-gray-700 border-2 border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
           />
           <input
             onChange={(e) => setConfirmPassword(e.target.value)}
             type="password"
             value={confirmPassword}
             placeholder="Confirm Password"
-            className="px-4 py-2 text-gray-400 border-2 border-blue-100 rounded-lg w-full"
+            className="px-4 py-2 text-gray-700 border-2 border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
           />
           <button
             type="submit"
-            className="px-4 py-2 text-white bg-blue-500 rounded-xl"
+            className="w-full px-4 py-2 text-white bg-green-600 rounded-xl transition duration-200 hover:bg-green-700"
           >
             Sign Up
           </button>
-          <p className="text-center text-sm">
-            Already have an account? <Link to='/' className='text-blue-500 underline'>Sign In</Link>
+          <p className="text-center text-sm text-gray-600">
+            Already have an account? 
+            <Link to='/' className='text-blue-500 underline'> Sign In</Link>
           </p>
         </form>
       </div>
