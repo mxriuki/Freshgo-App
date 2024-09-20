@@ -4,6 +4,7 @@ import GoogleIcon from '@mui/icons-material/Google';
 import { signInWithPopup, GoogleAuthProvider, signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../config/firebase-config';
 import { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -57,7 +58,7 @@ function Login() {
           />
           <div className="flex gap-2 items-center justify-center">
             <button type="submit" className="w-full px-4 py-2 text-white bg-green-600 rounded-xl transition duration-200 hover:bg-green-700">
-              Login
+              <Link to='/home'>Login</Link>
             </button>
             <button onClick={handleGoogleLogin} className="flex items-center justify-center px-4 py-2 text-gray-500 bg-gray-100 rounded-xl transition duration-200 hover:bg-gray-200">
               <GoogleIcon />
