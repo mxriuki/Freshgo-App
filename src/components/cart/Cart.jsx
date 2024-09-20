@@ -41,6 +41,7 @@ function Cart({ info, setInfo }) {
     if(price <= 0){
       return toast.error("Please purchase something.");
     }else{
+       toast.success("Purchase Successful 🎉")
       return navigate('/buy')
     }
   }
