@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   // Handle email/password login
   const handleEmailLogin = async (e) => {
@@ -16,6 +17,7 @@ function Login() {
     try {
       await signInWithEmailAndPassword(auth, email, password);
       alert("Logged in successfully");
+      navigate('/home')
     } catch (error) {
       alert(`Login failed: ${error.message}`);
     }
@@ -57,8 +59,8 @@ function Login() {
             className="px-4 py-2 text-gray-700 border-2 border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
           />
           <div className="flex gap-2 items-center justify-center">
-            <button type="submit" className="w-full px-4 py-2 text-white bg-green-600 rounded-xl transition duration-200 hover:bg-green-700">
-              <Link to='/home'>Login</Link>
+            <button onClick={handleEmailLogin} className="w-full px-4 py-2 text-white bg-green-600 rounded-xl transition duration-200 hover:bg-green-700">
+              Login
             </button>
             <button onClick={handleGoogleLogin} className="flex items-center justify-center px-4 py-2 text-gray-500 bg-gray-100 rounded-xl transition duration-200 hover:bg-gray-200">
               <GoogleIcon />
