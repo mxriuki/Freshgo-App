@@ -7,9 +7,9 @@ function Buy() {
 
     const handleButton = () => {
         setTimeout(() => {
-            navigate('/');
+            navigate('/home');
         }, 2000);
-        navigate('/');
+        navigate('/home');
     };
 
     return (
