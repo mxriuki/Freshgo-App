@@ -86,7 +86,7 @@ function Recipes() {
 
           {/* Back Button */}
           <button className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-full font-bold mt-4 transition duration-300 ease-in-out">
-            <Link to="/">Go Back</Link>
+            <Link to="/home">Go Back</Link>
           </button>
         </div>
       ) : (
