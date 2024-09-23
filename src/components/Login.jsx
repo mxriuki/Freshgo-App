@@ -31,6 +31,7 @@ function Login() {
       const user = result.user;
       console.log(user);
       alert("Logged in successfully");
+      navigate('/home')
     } catch (error) {
       alert(`Login failed: ${error.message}`);
     }

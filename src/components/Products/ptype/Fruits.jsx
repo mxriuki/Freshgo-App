@@ -1,14 +1,18 @@
 import data from "../data";
 import Cards from '../Cards';
 
-const Fruits = ({handleCartData}) => {
-  const dataitem = data.filter((item)=>item.category==='fruits')
+const Fruits = ({ handleCartData, filterProducts }) => {
+  const dataitem = data.filter((item) => item.category === 'fruits');
+  
+  // Filter the dataitem using the filterProducts function
+  const filteredFruits = filterProducts(dataitem);
+
   return (
-    <div className=" ">
-      <Cards data={dataitem}  handleCartData={handleCartData}/>
+    <div className="">
+      <Cards data={filteredFruits} handleCartData={handleCartData} />
     </div>
   );
 };
 
-
 export default Fruits;
+
