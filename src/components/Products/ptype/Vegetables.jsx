@@ -2,11 +2,15 @@ import React from "react";
 import Cards from "../Cards";
 import data from "../data";
 
-function Vegetables({handleCartData}) {
-  const dataItem = data.filter((item)=>item.category==="vegitables")
+function Vegetables({ handleCartData, filterProducts }) {
+  const dataItem = data.filter((item) => item.category === "vegetables"); // Fixed spelling of "vegetables"
+
+  // Filter the dataItem using the filterProducts function
+  const filteredVegetables = filterProducts(dataItem);
+
   return (
     <div>
-      <Cards data={dataItem} handleCartData={handleCartData} />
+      <Cards data={filteredVegetables} handleCartData={handleCartData} />
     </div>
   );
 }
