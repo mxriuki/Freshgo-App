@@ -20,7 +20,7 @@ function Signup() {
     // Check if passwords match
     if (password !== confirmPassword) {
       toast.error("Passwords do not match", {
-        duration: 1000,
+        duration: 500,
       });
       return;
     }
@@ -28,7 +28,7 @@ function Signup() {
     // Validate email and password
     if (!email || !password) {
       toast.error("Please fill in all fields", {
-        duration: 1000,
+        duration: 500,
       });
       return;
     }
